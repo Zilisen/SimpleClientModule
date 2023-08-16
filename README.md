@@ -1,6 +1,7 @@
 # SimpleClientModule
 
- a simple Client frame made with Unity
+> a simple Client frame made with Unity, TCP
+> Unity 2022.3.3f1 LTS
 
 一套通用C#服务端框架，该框架为单进程单线程架构，使用Select多路复用处理网络连接，用MySQL数据库保存玩家数据，具有粘包半包处理、心跳机制、消息分发等功能。一个单进程单线程服务器只能处理几百名玩家，大型服务器大多是分布式结构，协同工作，同时承载数十万玩家。
 
